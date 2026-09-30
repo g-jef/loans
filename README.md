@@ -5,7 +5,7 @@ books and issue loans to library members.
 
 ## The task
 
-Spend about ten minutes reading the code, then talk us through it: what the
+Spend ten minutes reading the code, then talk us through it: what the
 application does, how a request moves through it, and anything you would
 question or change. There is no need to run it.
 
