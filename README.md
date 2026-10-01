@@ -5,9 +5,14 @@ books and issue loans to library members.
 
 ## The task
 
-Spend ten minutes reading the code, then talk us through it: what the
-application does, how a request moves through it, and anything you would
-question or change. There is no need to run it.
+Spend ten minutes reading the code. There is no need to run it - Screenshots of
+the front end are below. 
+
+After the ten minutes we will ask you to talk through your understanding
+of the code, so consider what each file does. There will also be some
+specific questions asked about the code.
+
+Let us know if you spot any issues or bugs in the code too.
 
 ## Requirements
 
@@ -40,20 +45,6 @@ A loan that breaks a rule is refused, and the form is shown again with the
 reason:
 
 ![Book already on loan](docs/screenshots/06-book-already-on-loan.png)
-
-## Layout
-
-| File | Purpose |
-| --- | --- |
-| `LibraryLoansApplication.java` | Starts the application |
-| `Book.java` | A book in the catalogue |
-| `LibraryDao.java` | Database access, using `JdbcTemplate` |
-| `LoanValidator.java` | Checks made before a loan is issued |
-| `CatalogueController.java` | `GET /catalogue`: search and list books |
-| `IssueLoanController.java` | `GET/POST /issue`: the loan form |
-| `WEB-INF/views/*.jsp` | The two pages |
-| `schema.sql`, `data.sql` | Tables and sample data |
-| `application.properties` | Server, database and view configuration |
 
 ## Data model
 
